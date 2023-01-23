@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #181818;
+  color: black;
+  font-family: 'Quicksand', cursive;
+}
+
+/* heading font sizes */
+h1 {
+  font-size: 90px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* launch screen */
+.launch {
+  padding: 0 20% 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/launch-bg.jpg);
+  background-size: cover;
+  background-color: white;
+  color: white;
+}
+
+.launch h1 {
+  font-weight: 700;
+}
+
+.thin-heading {
+  font-weight: 300;
+}
+
+/* skills */
+.skills {
+  height: 100vh;
+  background-color: #181818;
+}
+
+/* projects */
+.project {
+  padding: 100px 0 100px 0;
+  background-color: white;
+  color: black;
+}
+
+.project-head {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: absolute;
+  margin: 0 200px 0 0;
+  width: 650px;
+  text-align: right;
+  right: 0;
+}
+
+.symbols {
+  margin-top: 20px;
+}
+
+.symbols img {
+  margin: 0 10px 0 0;
+  max-width: 80px;
+}
+
+/* scribbly */
+.parallax {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 2500px;
+  overflow-x: hidden;
+  animation: floating 4s ease-in-out infinite
+}
+
+.parallax img:nth-child(1) {
+  position: absolute;
+  top: 100px;
+  width: 350px;
+  pointer-events: none;
+}
+
+.parallax img:nth-child(2) {
+  position: absolute;
+  top: 500px;
+  width: 270px;
+  pointer-events: none;
+}
+
+.parallax img:nth-child(3) {
+  position: absolute;
+  top: 900px;
+  left: -5000px;
+  width: 300px;
+  pointer-events: none;
+}
+
+.parallax img:nth-child(4) {
+  position: absolute;
+  top: 1300px;
+  width: 325px;
+  pointer-events: none;
+}
+
+.parallax img:nth-child(5) {
+  position: absolute;
+  top: 1700px;
+  width: 300px;
+  pointer-events: none;
+}
+
+/* travel */
+.travel {
+  height: 100vh;
+}
+
+/* animations */
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 10px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
+.from-right {
+  transform: translateX(50%);
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left {
+  transform: translateX(-50%);
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
