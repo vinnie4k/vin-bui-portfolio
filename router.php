@@ -5,7 +5,7 @@ const ROUTES = array(
   '/work'                   => 'pages/index.php',
   '/blog'                   => 'pages/blog.php',
   '/contact'                => 'pages/contact.php',
-  '/contact/confirmation'   => 'pages/confirmation.php',
+  // '/contact/confirmation'   => 'pages/confirmation.php',
   '/about'                  => 'pages/about.php'
 );
 

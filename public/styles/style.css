@@ -536,6 +536,11 @@ main {
   transform: translateY(-5px);
 }
 
+.calendly-inline-widget {
+  min-width: 320px;
+  height: 700px;
+}
+
 /* confirmation */
 #white-bg {
   background-color: white;

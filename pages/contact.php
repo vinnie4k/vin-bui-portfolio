@@ -27,6 +27,7 @@ $footerFade = "fademe-footer";
   <script src="https://storage.googleapis.com/portfolio-377906.appspot.com/public/scripts/hamburger.js"></script>
   <script src="https://storage.googleapis.com/portfolio-377906.appspot.com/public/scripts/fade-in.js"></script>
   <script src="https://storage.googleapis.com/portfolio-377906.appspot.com/public/scripts/flip.js"></script>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 
   <!-- head content -->
   <title>Contact | Vin Bui</title>
@@ -41,15 +42,23 @@ $footerFade = "fademe-footer";
     <!-- page heading -->
     <div class="page-heading">
       <div class="first-heading fadeIn1">
-        <h1>Send me a message! (WIP)</h1>
+        <h1>Reach out to me!</h1>
         <i class="fa-solid fa-paper-plane"></i>
         <span class="heading-line"></span>
       </div>
       <h2 class="fadeIn2">Got a question or just want to say hello? Go ahead!</h2>
     </div>
 
+    <!-- bouncing arrow -->
+    <div class="bounce-wrapper">
+      <a class="fa-solid fa-angles-down bounce" href="#calendly">‎</a>
+    </div>
+
+    <!-- Calendly inline widget -->
+    <div id="calendly" class="calendly-inline-widget fademe" data-url="https://calendly.com/vinbui/chat-w-vin"></div>
+
     <!-- form -->
-    <div class="fadeIn3">
+    <!-- <div class="fadeIn3">
       <form id="contact-form" action="/contact/confirmation" method="post" novalidate>
         <div id="name-email">
           <div class="form-label">
@@ -74,7 +83,7 @@ $footerFade = "fademe-footer";
           </button>
         </div>
       </form>
-    </div>
+    </div> -->
   </main>
 
   <!-- footer -->
