@@ -30,7 +30,7 @@ $footerFade = "fademe-footer";
 
   <!-- head content -->
   <title>Work | Vin Bui</title>
-  <link rel="icon" href="/public/images/logo-white.png">
+  <link rel="icon" href="https://storage.googleapis.com/portfolio-377906.appspot.com/public/images/logo-white.png">
 </head>
 
 <body>
