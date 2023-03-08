@@ -256,9 +256,17 @@ main {
 }
 
 /* home/work */
+#appdev {
+  color: #cb433a;
+}
+
 #home-about {
   font-size: 28px;
   margin-top: 20px;
+}
+
+.page-content a {
+  width: 100%;
 }
 
 .work-img {
@@ -754,6 +762,18 @@ main {
   font-size: 20px
 }
 
+/* scribbly */
+.scribbly-logo {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scribbly-logo img {
+  width: 80%;
+}
+
 /* fade in animation */
 @keyframes fade-in-1 {
   0% {
@@ -921,6 +941,10 @@ html {
     max-width: 30vw;
   }
 
+  .page-content a {
+    max-width: 30vw;
+  }
+
   .work-head {
     display: flex;
     flex-direction: row;
@@ -1072,5 +1096,17 @@ html {
 
   #backhome-btn {
     font-size: 1.75vw;
+  }
+
+  /* scribbly */
+  .scribbly-logo {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scribbly-logo img {
+    width: 40%;
   }
 }

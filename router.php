@@ -6,7 +6,8 @@ const ROUTES = array(
   '/blog'                   => 'pages/blog.php',
   '/contact'                => 'pages/contact.php',
   // '/contact/confirmation'   => 'pages/confirmation.php',
-  '/about'                  => 'pages/about.php'
+  '/about'                  => 'pages/about.php',
+  '/work/scribbly'          => 'pages/scribbly.php'
 );
 
 function match_static($uri)

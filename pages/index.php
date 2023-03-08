@@ -29,7 +29,7 @@ $footerFade = "fademe-footer";
   <script src="https://storage.googleapis.com/portfolio-377906.appspot.com/public/scripts/flip.js"></script>
 
   <!-- head content -->
-  <title>Work | Vin Bui</title>
+  <title>Vin Bui</title>
   <link rel="icon" href="https://storage.googleapis.com/portfolio-377906.appspot.com/public/images/logo-white.png">
 </head>
 
@@ -42,8 +42,7 @@ $footerFade = "fademe-footer";
     <div class="page-heading">
       <div class="first-heading fadeIn1">
         <h1 class="thin-text">Hi. I'm Vin.</h1>
-        <h2 class="fadeIn2" id="home-about">A student and <span class="bold">developer</span> looking into full-stack
-          development with a serious passion for improving user experience and developing new technologies.</h2>
+        <h2 class="fadeIn2" id="home-about">A student and <span class="bold">developer</span> looking into full-stack development with a serious passion for improving user experience and developing new technologies. Currently developing for <a class="link-color" id="appdev" href="https://www.cornellappdev.com/">Cornell AppDev</a>.</h2>
       </div>
     </div>
 
@@ -73,7 +72,7 @@ $footerFade = "fademe-footer";
       <!-- work content -->
       <div class="page-content fademe">
         <!-- Source: (original work) Vin Bui -->
-        <img src="https://storage.googleapis.com/portfolio-377906.appspot.com/public/images/scribbly/logo.png" alt="" class="work-img">
+        <a href="/work/scribbly"><img src="https://storage.googleapis.com/portfolio-377906.appspot.com/public/images/scribbly/logo.png" alt="" class="work-img"></a>
         <div>
           <div class="work-head">
             <h2>Scribbly</h2>
