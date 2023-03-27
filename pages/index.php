@@ -17,6 +17,7 @@ $footerFade = "fademe-footer";
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
   <!-- link and scripts -->
+  <!-- <link rel="stylesheet" href="/public/styles/style.css"> -->
   <link rel="stylesheet" href="https://storage.googleapis.com/portfolio-377906.appspot.com/public/styles/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
